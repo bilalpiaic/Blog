@@ -1,5 +1,8 @@
 # Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection
 
+> **Tip**: For a better reading experience, please visit the [full article on GitHub](https://github.com/YukoOshima/Blog/blob/main/articles/rag.md).
+
+
 In the ever-evolving landscape of artificial intelligence and natural language processing, **Self-RAG** (Self-Reflective Retrieval-Augmented Generation) has emerged as a promising technique to enhance the capabilities of large language models. By combining retrieval mechanisms with self-reflection, Self-RAG aims to improve the quality, accuracy, and reliability of AI-generated content. This blog post explores the concept of Self-RAG, its key components, and its potential impact on the field of AI.
 
 ## What is Self-RAG?
