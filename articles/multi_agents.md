@@ -1,5 +1,7 @@
 # Building a Multi-Agent Framework from Scratch with LlamaIndex
 
+> **Tip**: For a better reading experience, please visit the [full article on GitHub](https://github.com/YukoOshima/Blog/blob/main/articles/multi_agents.md).
+
 ## Introduction
 
 Multi-agent systems are like teams of specialized workers, each with their own expertise, working together to accomplish complex tasks. In this tutorial, we'll build a multi-agent system using LlamaIndex that generates high-quality Anki flashcards from any given text.
