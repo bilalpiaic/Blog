@@ -1,6 +1,7 @@
 # Building a Multi-Agent Framework from Scratch with LlamaIndex
 
 > **Author**: Eason Meng
+>
 > **Follow me on**: [LinkedIn](https://www.linkedin.com/in/yusen-meng-4946b6135/) | [Twitter](https://x.com/luluyuyusese)
 >
 > **Tip**: For a better reading experience, please visit the [full article on GitHub](https://github.com/YukoOshima/Blog/blob/main/articles/multi_agents.md).
