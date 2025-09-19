@@ -1,4 +1,4 @@
-# How I Built an Automated Lead Generation System That Finds 50+ B2B Prospects Daily
+# An Automated Lead Generation Approach That Could Find 50+ B2B Prospects Daily
 
 > **Author**: Eason Meng
 >
@@ -8,21 +8,21 @@
 >
 > **Resources**: Firecrawl n8n Integration Guide: [https://www.firecrawl.dev/blog/firecrawl-n8n-web-automation](https://www.firecrawl.dev/blog/firecrawl-n8n-web-automation)
 
-## The Problem I Was Trying to Solve
+## The Challenge Most B2B Teams Face
 
-Like most B2B founders, I was spending hours every day manually searching for potential customers. I'd open LinkedIn, Google random industry keywords, visit company websites one by one, and try to figure out if they were a good fit for our product. By the end of the day, I'd have maybe 10-15 prospects, and honestly, half of them weren't even that great.
+I recently came across an interesting problem that many B2B teams are struggling with. Most sales and business development professionals spend hours every day manually searching for potential customers. They open LinkedIn, Google random industry keywords, visit company websites one by one, and try to figure out if prospects are a good fit for their product. By the end of the day, they might have 10-15 prospects, and honestly, half of them aren't even that great.
 
-The math was depressing. If I could only find 10 prospects a day, and my conversion rate was around 2%, I was looking at one customer every five days. That's roughly 6 customers per month. For a business targeting $30K+ monthly revenue, that just wasn't going to cut it.
+The math is quite depressing when you think about it. If someone can only find 10 prospects a day with a conversion rate around 2%, they're looking at one customer every five days. That's roughly 6 customers per month. For businesses targeting $30K+ monthly revenue, that approach simply doesn't scale.
 
-That's when I decided to build an automated system using n8n, Firecrawl, and Claude AI. Now, this system finds 50+ qualified prospects daily with minimal effort from me. More importantly, because the AI does the heavy lifting on qualification, my conversion rate has jumped to around 8%.
+This got me thinking about an automated approach using n8n, Firecrawl, and Claude AI. In theory, such a system could find 50+ qualified prospects daily with minimal manual effort. More importantly, because AI handles the heavy lifting on qualification, conversion rates could potentially jump to around 8%.
 
-## How the System Actually Works
+## How This System Could Work
 
-The beauty of this setup is that it mimics exactly what I was doing manually, but at 10x the speed and with much better analysis. Here's how it flows:
+The beauty of this approach is that it mimics exactly what people do manually, but at 10x the speed and with much better analysis. Here's how it could flow:
 
-Instead of me typing keywords into Google, the system does intelligent searches using combinations like "SaaS companies + recently funded" or "marketing agencies + hiring developers." It's not just throwing random searches either - it's strategic about finding companies that match our ideal customer profile.
+Instead of manually typing keywords into Google, the system would do intelligent searches using combinations like "SaaS companies + recently funded" or "marketing agencies + hiring developers." It's not just throwing random searches either - it would be strategic about finding companies that match an ideal customer profile.
 
-Once Firecrawl finds these companies, it doesn't just grab their homepage. It intelligently crawls through their About pages, team sections, recent blog posts, and even their pricing pages. This gives me a complete picture of who they are, what they do, and how much they might be willing to spend.
+Once Firecrawl finds these companies, it wouldn't just grab their homepage. It would intelligently crawl through their About pages, team sections, recent blog posts, and even their pricing pages. This would give you a complete picture of who they are, what they do, and how much they might be willing to spend.
 
 ```mermaid
 graph LR
@@ -39,35 +39,35 @@ graph LR
     style F fill:#e0f2f1,stroke:#00695c
 ```
 
-Here's where Claude AI comes in and does something I could never do manually at scale. For each company, it analyzes all the collected information and tells me:
+Here's where Claude AI comes in and does something that would be impossible to do manually at scale. For each company, it could analyze all the collected information and provide:
 
-What problems this company likely has that my product could solve. For example, if I see they're hiring a lot of developers but their careers page mentions "fast-paced environment," Claude might identify scaling challenges.
+What problems this company likely has that your product could solve. For example, if you see they're hiring a lot of developers but their careers page mentions "fast-paced environment," Claude might identify scaling challenges.
 
-How good of a fit they are based on industry, company size, and tech stack. A 50-person fintech company using React might score a 9/10 for our developer tools, while a 5-person local restaurant might score a 2/10.
+How good of a fit they are based on industry, company size, and tech stack. A 50-person fintech company using React might score a 9/10 for developer tools, while a 5-person local restaurant might score a 2/10.
 
-The best angle to approach them with. Instead of generic outreach, I get specific talking points like "They just raised Series A and are likely struggling with technical debt as they scale."
+The best angle to approach them with. Instead of generic outreach, you'd get specific talking points like "They just raised Series A and are likely struggling with technical debt as they scale."
 
-What their budget range probably looks like. A company that just raised $10M is going to have different purchasing power than a bootstrapped startup.
+What their budget range probably looks like. A company that just raised $10M would have different purchasing power than a bootstrapped startup.
 
-## The Magic is in the Personalization
+## The Magic Would Be in the Personalization
 
-The game-changer is that every prospect comes with a personalized value proposition. When I reach out, I'm not sending generic "Hey, want to see our product?" emails. I'm sending messages like:
+The game-changer would be that every prospect comes with a personalized value proposition. Instead of sending generic "Hey, want to see our product?" emails, you could send messages like:
 
 "Hi [Name], I noticed you recently expanded to 15 engineers and are hiring aggressively. Most companies at your stage struggle with code review bottlenecks that slow down deployments. Our tool has helped similar fintech companies reduce review time by 60%. Worth a quick chat?"
 
-That level of personalization at scale is what drives the 8% conversion rate.
+That level of personalization at scale is what could drive much higher conversion rates.
 
-## What This Looks Like in Practice
+## What This Would Look Like in Practice
 
-Let me walk you through a real example. Say I'm selling developer tools to fintech companies.
+Let me walk you through a theoretical example. Say you're selling developer tools to fintech companies.
 
-The system searches for "fintech startups hiring developers" and finds 50 companies. Firecrawl visits each website and pulls information about their tech stack, team size, recent funding, and job postings.
+The system would search for "fintech startups hiring developers" and find 50 companies. Firecrawl would visit each website and pull information about their tech stack, team size, recent funding, and job postings.
 
-Claude analyzes all this data and identifies that TechCorp (fake name) is a Series A fintech with 25 employees, using React and Node.js, recently posted 5 developer jobs, and their CEO just wrote a blog post about "scaling challenges."
+Claude would analyze all this data and identify that TechCorp (fake name) is a Series A fintech with 25 employees, using React and Node.js, recently posted 5 developer jobs, and their CEO just wrote a blog post about "scaling challenges."
 
-Based on this analysis, Claude generates a personalized approach: "This company is in rapid growth mode, likely struggling with code quality and deployment speed. Approach angle: help them maintain code quality while scaling their team. Estimated budget: $5K-15K/month. Best contact: Engineering Manager (found on their team page)."
+Based on this analysis, Claude could generate a personalized approach: "This company is in rapid growth mode, likely struggling with code quality and deployment speed. Approach angle: help them maintain code quality while scaling their team. Estimated budget: $5K-15K/month. Best contact: Engineering Manager (found on their team page)."
 
-When this lands in my Slack, I have everything I need to write a compelling, personalized outreach message.
+When this lands in your Slack or notification system, you'd have everything needed to write a compelling, personalized outreach message.
 
 ## Taking It to the Next Level
 
@@ -79,13 +79,15 @@ I've also added social media monitoring that tracks LinkedIn company updates, re
 
 The email automation piece is where things get really interesting. The system doesn't just find prospects and analyze them - it can actually generate the first outreach email and set up follow-up sequences. Of course, I still review everything before it goes out, but having a personalized draft ready saves tons of time.
 
-## The Numbers Don't Lie
+## The Potential Impact
 
-Before building this system, I was stuck in the manual prospecting grind. Every day, I'd spend 3-4 hours researching companies and end up with maybe 10 prospects. My conversion rate was around 2%, so I was getting roughly one new customer every five days.
+Let's look at the numbers to understand why this approach could be so powerful.
 
-Now, the system runs in the background and delivers 50+ qualified prospects daily. Because Claude does such a good job with the initial qualification and personalization, my conversion rate has jumped to 8%. Instead of 6 customers per month, I'm looking at 120+ qualified opportunities.
+With traditional manual prospecting, a person might spend 3-4 hours researching companies and end up with maybe 10 prospects. With a conversion rate around 2%, that means roughly one new customer every five days.
 
-The time savings alone are incredible. What used to take me 4 hours now takes about 30 minutes of my time each morning to review the prospects and customize the final outreach messages.
+In contrast, an automated system could run in the background and deliver 50+ qualified prospects daily. Because Claude would do such a good job with the initial qualification and personalization, conversion rates could potentially jump to 8%. Instead of 6 customers per month from manual work, you'd be looking at 120+ qualified opportunities.
+
+The time savings alone would be incredible. What used to take 4 hours could take about 30 minutes each morning to review the prospects and customize the final outreach messages.
 
 ## How to Actually Build This
 
